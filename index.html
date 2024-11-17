@@ -346,6 +346,23 @@ nav ul li:focus-within ul {
             color: #0099ff;
         }
 
+
+        .image-frame {
+            width: 100%; /* Combined image width */
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Auto-fit images into the frame */
+            grid-auto-rows: 400px; /* Set the height of each row */
+            gap: 0px;
+            transform: scale(0.8); /* Zoom out the entire grid to 80% */
+            transform-origin: center; /* Keeps the zoom centered */
+        }
+        .image-frame img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Ensures the images fit within their cells */
+        }
+
 </style>
 </head>
 
@@ -398,12 +415,10 @@ nav ul li:focus-within ul {
 <table width="900" border="2" align="center" cellpadding="15" cellspacing="0" bordercolor="#0066FF" bgcolor="#FFFFFF">
   <tr>
     <td>
-      <p align="center">
-        <span class="style13">Science and Theology</span>
-        <br>
-        <span class="style14">place holder here</span>
-        <br>"by Dawit Borga"
-      </p>
+        <div align="center">
+            <h1 style="color: #000000;">Science and Theology</h1>
+        </div>
+
      
       <hr class="short-hr">
       <p align="center">
@@ -418,16 +433,15 @@ nav ul li:focus-within ul {
           <td>
             <div align="center">
               <h2>Opening Statement</h2>
-              <p>I do not subscribe to the concept of a "false religion." In my view, such a notion does not exist. Every religion has an entity behind its practices, and if one adheres to the specific rules and rituals, it is possible to gain favor in the eyes of the deity associated with that religion. This deity may have the power to bring about positive changes in one's life. However, depending on their character, the opposite could happen.</p>
-              <p>When it comes to religion, I do not concern myself with the behavior or practices of its adherents while seeking a deity to follow. I firmly believe that no one in this world truly knows how to represent their god or practice correctly. Humanity, in my view, often leads lives that contradict their beliefs or what they profess to follow, revealing a pervasive self-interest and inconsistency.</p>
-              <p>For this reason, I do not judge the characteristics of any deity based on the actions of their followers. Instead, I advocate for spiritual independence above all else. I have a saying that I adapted from the famous proverb, ‘Show me your friends and I will show you your future.’ My version is, ‘Show me your life, and I will show you your god.’</p>
+              <p>I don’t believe in the concept of a “false religion.” To me, every religion has a spiritual force behind its practice, and if people commit to the rules and rituals of any given religion, it’s possible to gain favor from the forces behind it and positively influence their lives. However, this isn’t always the case—if the practice someone commits to has ties to negative forces, they may also be opening doors to these types of spirits, which can have a harmful impact on their life.</p>
+              <p>When it comes to any religion, I recommend taking a direct approach first, rather than finding a community or individual to act as a bridge to the deity. This helps avoid confusion because humans are naturally selfish, and no matter what religion we follow, our lives often contradict what we preach. These kinds of inconsistencies can negatively influence newcomers. Additionally, if your faith is rooted in a specific community, preacher, or church, without any personal experience with the religious texts, you risk being taken advantage of financially, emotionally, or even physically. This is why I suggest spiritual independence and eliminating any middleman unless that middleman is required by the official texts of the religion you’re pursuing.</p>
             </div>
           </td>
         </tr>
       </table>
       <hr class="short-hr"/>
       <div align="center">
-        <h1>Religions of Our World</h1>
+        <h2 style="color: #000000;">Religions of Our World</h2>
     </div>
     <div align="center" class="pie-chart">
       <div class="pie"></div>
@@ -449,13 +463,29 @@ nav ul li:focus-within ul {
       <hr class="short-hr"/>
       <div align="center">
         <h2>Introduction</h2>
-        <p>When people reject the idea of God, I find it particularly interesting because most are only familiar with the deity who condemns the world for its sins, as depicted in the Bible. Given the Bible's widespread influence, it is understandable why this is the case. However, I often wonder: what if there are other gods? What if these gods do not promise eternal life but instead offer us profound scientific knowledge about our universe? What if they do not demand anything from us except our consent to engage with them through rituals? In return, they could guide our morals, influence our thoughts, and transform our desire to worship into an obsession with the knowledge they provide, inspiring us to honor them through our works, such as naming our projects and discoveries after them.</p>
-        <p>In this discussion, I will explore the plausibility of these ideas, identify who these other gods might be, and delve into their origins. I will also evaluate whether these deities can be trusted. Additionally, I will draw parallels between religious and non-religious individuals, highlighting how both groups fulfill the common human desire to worship. I believe that humans are inherently inclined to worship, as evidenced by various forms of devotion in society. Religious individuals express this inclination through their faith in a god, while non-religious individuals may substitute this with self-worship, celebrity adoration, or other forms of idolatry, such as the pursuit of wealth and professional achievements.</p>
-        <p>Ultimately, I aim to address whether it is possible to avoid this inherent tendency to worship by adhering to what many consider the most logical and reasonable domains of our society: science and politics. Are they really logical? Are they really about evidence and logic with no relation to god or any supernatural nonsense?</p> 
+        <p>Welcome to my page, where I share my journey in making sense of the world we live in, based on personal observations and experiences in what I refer to as this "live server" of reality. It is important to clarify that none of the content presented here is intended to offend or ridicule the beliefs or truths held by others, whether they are of a scientific or religious nature. This is merely an expression of my personal views, shaped by information gathered from life, online resources, and literature, and is provided solely for educational purposes.</p>
+        <p>The discussions on this page will revolve around my perspectives on reality from both theological and scientific viewpoints. While it is commonly accepted that these two fields are inherently oppositional and contradictory, I firmly believe they have always been intertwined and will continue to be so, unless altered by those in control of the narrative. Oftentimes, institutions or individuals may choose to elevate one field while undermining the other, driven by motives such as political, religious, or personal biases. Such actions are typically motivated by power, money, greed, or an unrestrained curiosity.</p>
+        <p>As adults, when we confront the realities of life and begin our search for purpose, we often find ourselves on different paths. These paths inevitably lead us to engage with science, religion, or politics—forces that undeniably shape our reality. I will address each of these areas individually on this page, presenting them in their own branches. Despite the differences in these paths, one truth remains constant: humanity’s innate desire to worship. Unfortunately, this is a fundamental desire we are seldom taught to understand, and many people do not even recognize it. As a result, we attempt to fill this void in various ways, because it always feels empty regardless of our achievements or material success.</p>
+        <p>For example, humans possess an undeniable desire for food, and scientifically, it is a fact that sustenance is necessary for survival. Eating is an unavoidable necessity for life, regardless of diet, cultural practices, or national background. However, how we choose to satisfy this need varies greatly, depending on individual goals. An ideal individual may approach food with discipline and knowledge of nutrition, while the average person might indulge in whatever food they crave, often to the detriment of their health. Successful companies capitalize on this desire, relying on the average person’s reluctance to regulate their eating habits, even when aware of the consequences.</p>
+        <p>I believe the same principle applies to our desire to worship. Whether one is religious or atheist, we all share this inherent need that must be satisfied in some manner. Acknowledging this fact, even from an atheistic perspective, can serve as a significant step in one's spiritual journey, as it is something that can be tested. Just as a religious individual fulfills this need through their relationship with a deity, others may substitute it with self-worship, celebrity idolization, materialism, or other forms of idolatry. In essence, we are dealing with the same "currency," spent in different ways according to personal preferences. This topic will be further explored in detail under the "Humans" header in the "Atheism and Idolatry" section.</p>
+        <p>By the conclusion of this page, I hope to provide you with a new perspective on our world, encouraging you to recognize the value of your desire to worship, and to direct it toward the One who instilled this desire in your very being: the God of Abraham, Isaac, and Jacob. The misplacement of this desire is the underlying reason we see celebrities and politicians enveloped in fame and wealth. When this desire is properly fulfilled by worshiping the true God, our infatuation with their merchandise, lyrics, tattoos, concerts, or the need for validation from these figures would significantly diminish. No longer blinded by their fame, appearance, or status, we would come to see them for who they truly are: fellow human beings who also worship. Through their symbolism and lyrics, they often reveal which "god" truly inspires them.</p>
+        <p>I created this page to show that, even if we try to remain neutral on the topic of God or avoid appearing gullible, the innate desire to worship is deeply ingrained within us all. This makes us naturally open to influence. Wherever we go, there is a strong likelihood that someone is subtly—or not so subtly—attempting to impose their god or ideology onto us. Whether it's the outspoken Christian who frequently speaks about Jesus, often labeled a "religious fanatic," or the more covert influences through our favorite actors, scientists, politicians, and athletes, these influences are always present. Just as food companies exploit our struggle to maintain a healthy diet, the entertainment industry—Hollywood, the music industry, and others—takes advantage of our unfulfilled need for an idol. They project their deities or ideologies onto us through symbolism in their work. Symbols carry stories, and those stories are revealed to those with the insight to understand, while remaining hidden from those without it.</p> 
       </div>
       <hr class="short-hr">
       <div align="center">
-        <h2>Probably a Coincidence</h2>
+        <h2>Potential Symbolism of Our World</h2>
+        <p>The structures and symbols we see in our world today often hold deeper meanings that transcend their physical forms. Many modern buildings, statues, and logos carry spiritual and historical significance rooted in ancient traditions and beliefs. These symbols may serve as subtle reminders of a past that continues to influence society, politics, and even culture. In recognizing these connections, we uncover how the values and deities of ancient civilizations have been seamlessly integrated into the fabric of our modern world. This reflection prompts us to question the unseen forces shaping our institutions and cultural landmarks.</p>
+        <div class="image-frame">
+            <img src="/img/temples.png" alt="temples">
+            <img src="/img/temples2.png" alt="">
+            <img src="/img/temples3.png" alt="">
+            <img src="/img/temples4.png" alt="">
+            <img src="/img/Nike.png" alt="">
+            <img src="/img/0914.png" alt="">
+            <img src="/img/Siren.png" alt="">
+            <img src="/img/symbols.png" alt="">
+
+        </div>
         <table id="myTable">
             <thead>
                 <tr>
@@ -466,7 +496,7 @@ nav ul li:focus-within ul {
             </thead>
             <tbody>
                 <tr>
-                    <td rowspan="4">Eve was deceived into eating an apple by a <span style="color:red;">serpent</span>, later known as Satan, who promised her knowledge in exchange for disobeying God. Satan is associated with the number <span style="color:red;">666</span>. The Bible also warns against various figures such as <span style="color:red;">Baal</span>, Ashtoreth, the Accuser (Satan), <span style="color:red;">Apollo</span> (the Destroyer), Osiris, Tammuz, and the <span style="color:red;">Queen of Heaven</span> (also known as <span style="color:red;">Liberty</span>, Artemis, and <span style="color:red;">Columbia</span>), among others.</td>
+                    <td rowspan="4">Eve was deceived into eating an apple by a <span style="color:red;">serpent</span>, later known as Satan, who promised her knowledge in exchange for disobeying God. Satan is associated with the number <span style="color:red;">666</span>. The Bible also warns against various figures such as <span style="color:red;">Baal</span>, Ashtoreth, the Accuser (Satan), <span style="color:red;">Apollo</span> (the Destroyer), Osiris, Tammuz, and the <span style="color:red;">Queen of Heaven</span> (also known as <span style="color:red;">Liberty</span>, Artemis, and <span style="color:red;">Columbia</span>), among others. The Bible also mentions the number of the beast is a number of a man in Revelation 13:18 and man happens to be a carbon based organism consist of 6 protons 6 neutrons and 6 electrons.</td>
                     <td>Isaac Newton is famously said to have developed his laws of motion and the universal law of gravitation after being struck on the head by an <span style="color:red;">apple</span> in <span style="color:red;">1666</span>.</td>
                     <td>Steve Jobs traveled to India in search of inspiration, eventually returning to start Apple Inc., whose logo features a <span style="color:red;">bitten apple.</span> The company’s first computer was priced at <span style="color:red;">$666.66.</span></td>
                 </tr>
@@ -482,8 +512,7 @@ nav ul li:focus-within ul {
                     
                 </tr>
                 <tr>
-                    <td colspan="3">I believe that Holy Scripture can be likened to the red pill and blue pill concept from The Matrix movie, offering a profound choice in how we understand reality. When I approach Scripture with an open mind, setting aside any preconceived moral judgments, I find that it speaks for itself, revealing a clear and comprehensive lens through which to view the world.
-                        What’s fascinating is that even for those who may not believe in its divine origin, engaging with Scripture as if it were a narrative—a work of fiction, as some might consider—can lead to surprising insights. By playing along and applying its teachings to our world, I’ve found that it often provides strong evidence not only for the existence of God but also for the reality of other spiritual beings that Scripture warns us about.
+                    <td colspan="3">For me, reading the Holy Scriptures parallels the concept of the red pill and blue pill from The Matrix. The Scriptures claim to speak about the very world we live in, so it’s only logical to view this world through the lens they provide. I believe the Holy Scriptures serve as a user manual for this world, authored by the Creator. Many people dismiss religion as illogical, often because they claim it’s “untestable” or because they attempt to test it using a framework they’ve constructed themselves. However, if you approach the Holy Scriptures on their own terms, you’ll find that they often challenge many of the things humanity has normalized and labeled as good. This alone can be enough to make someone hesitate, as it calls into question our attachment to certain habits or values that we consider positive. But if you genuinely want to test the Scriptures, it’s important to do so according to their own teachings—without any preconceived biases. Let the Scriptures speak for themselves, and you may be surprised by what you discover. As I briefly outlined above, I will go into further detail, exploring elements of our world that may have a different significance when viewed through the lens of the Holy Scriptures under my headers.
                         </td>
                 </tr>
             </tbody>
@@ -491,17 +520,16 @@ nav ul li:focus-within ul {
         <br>
       </div>
       <hr class="short-hr">
-      <!-- Pie chart section -->
-      
+      <div align="center">
+        <h1>Contact</h1>
+        <a href="https://www.tiktok.com/@yeshuathelight?_t=8q6mNpnuuIp&_r=1" target="_blank">
+            <img src="/img/tiktok.jpg" alt="TikTok" style="width:50px;height:50px;">
+        </a>
+        <p>Email: <a href="mailto:your_email@example.com">yeshuathelight@yahoo.com</a></p>
+    </div>
     
-      <hr class="short-hr">
+      
 
-    <!-- Add this section after the "Religions of Our World" pie chart -->
-<hr class="short-hr">
-
-
-
-<hr class="short-hr">
 
       <div align="center">
       <p>

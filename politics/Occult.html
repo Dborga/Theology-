@@ -1,0 +1,306 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>NASA Page</title>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+<style type="text/css">
+body, td, th {
+    font-family: 'Merriweather', serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 10px;
+    height: 100%;
+    color: #444;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+    color: #171429;
+}
+
+h1 {
+    font-size: 36px;
+    color: #171429;
+    text-align: center;
+    margin-top: 20px;
+}
+
+h2 {
+    font-size: 30px;
+    color: #003399;
+    text-align: center;
+    margin-top: 20px;   
+}
+
+p {
+    line-height: 1.6;
+}
+
+nav {
+    background: #003399;
+    padding: 10px 0;
+    width: 100%;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    position: relative;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+nav ul li a:hover,
+nav ul li a:focus {
+    background: #002266;
+    border-radius: 5px;
+}
+
+nav ul li ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #003399;
+    padding: 0;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    z-index: 1;
+}
+
+nav ul li ul li {
+    width: 200px;
+    margin: 0;
+}
+
+nav ul li ul li a {
+    font-size: 16px;
+    color: white;
+    padding: 10px;
+}
+
+nav ul li ul li a:hover,
+nav ul li ul li a:focus {
+    background: #002266;
+}
+
+nav ul li:hover ul,
+nav ul li:focus-within ul {
+    display: block;
+}
+
+.short-hr {
+    width: 95%;
+    margin: 20px auto;
+    border: 1px solid #0066FF;
+}
+
+.image-row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 40px 0;
+}
+
+.image-row img {
+    width: 600px;
+    height: 700px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.image-row img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.table-wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 0px 0;
+}
+
+.table-wrapper table {
+    width: 100%;
+    max-width: 900px;
+    border: 2px solid #0066FF;
+    background: #FFFFFF;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.table-wrapper table td {
+    padding: 20px;
+}
+
+.table-wrapper table hr {
+    border-color: #0066FF;
+}
+
+.abstract {
+    margin: 20px 0;
+    padding: 20px;
+    background: #f9f9f9;
+    border-left: 5px solid #003399;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+}
+
+.abstract h2 {
+    margin-top: 0;
+}
+
+.footer {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.footer a {
+    color: #003399;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.footer a:hover {
+    color: #002266;
+}
+
+body {
+    background-image: url('../img/occult.JPG');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #171429;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+</style>
+
+</head>
+
+<body>
+
+<div>
+<nav>
+    <ul id="main-menu">
+        <li><a href="#">Science</a>
+            <ul>
+                <li><a href="../science/patriarchs.html">The Patriarchs</a></li>
+                <li><a href="../science/cosmos.html">Cosmos</a></li>
+                <li><a href="../science/nasa.html">NASA</a></li>
+                <li><a href="../science/cern.html">CERN</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Religions</a>
+            <ul>
+                <li><a href="../religion/hindu.html">Hinduism</a></li>
+                <li><a href="../religion/budh.html">Buddhism</a></li>
+                <li><a href="../religion/islam.html">Islam</a></li>
+                <li><a href="../religion/spiritual.html">Spirituality</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Humans</a>
+            <ul>
+                <li><a href="../humans/atheism.html">Atheism</a></li>
+                <li><a href="../humans/idolatry.html">Idolatry</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Politics</a>
+            <ul>
+                <li><a href="../politics/presidents.html">Presidents</a></li>
+                <li><a href="../politics/occult.html">Occult</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Why Christianity</a>
+            <ul>
+                <li><a href="../christianity/israel.html">Israel</a></li>
+            </ul>
+        </li>
+    </ul>
+</nav>
+</div>
+
+<div class="table-wrapper">
+<table width="900" border="2" align="center" cellpadding="15" cellspacing="0" bordercolor="#0066FF" bgcolor="#FFFFFF">
+  <tr>
+    <td>
+      <h1>The Occult</h1>
+      <div class="image-row">
+        <img src="../img/invocation.JPG" alt="Image 1" title="Occultism">
+      </div>
+      <div align="center">
+        <p>The occult, a word that comes from the Latin occultus, meaning "hidden" or "secret," covers a wide range of practices, beliefs, and groups that engage with the mystical, supernatural, and esoteric sides of life. As someone deeply rooted in Christian theology and well-versed in the Bible, including the apocryphal texts, I’ve become increasingly concerned about how occult symbols and the worship of false gods and goddesses are everywhere around us. This page will focus on the origins and root causes of these practices, exploring how the occult is weaving itself into our everyday lives, from politics and the entertainment industry to modern religions and even our personal choices like tattoos and idol purchases.</p>
+      </div>
+      <hr class="short-hr"/>
+      <div align="center">
+        <h1>Origins of the Occult</h1>
+        <p>The origins of occultism can be traced back to ancient civilizations where mystical practices and esoteric knowledge were deeply embedded in religious and societal structures. In ancient Egypt, Mesopotamia, and Greece, priests and scholars conducted rituals and studies aimed at understanding the hidden forces that govern the universe. These early occult practices were often intertwined with mainstream religion, laying the foundation for future esoteric traditions that would evolve over centuries. During the medieval period, occultism developed alongside the dominant Christian faith, with alchemy, astrology, and magic emerging as prominent fields of study. These practices were frequently pursued in secrecy due to their perceived heretical nature, as the Church sought to suppress any teachings that deviated from orthodox Christianity.</p>
+        <p>The Renaissance took occultism to new heights. Famous figures like Johannes Kepler and Isaac Newton weren’t just scientists; they were also involved in alchemy and mystical studies (Hanegraaff, 2013). This era showed how the pursuit of hidden knowledge could go hand-in-hand with scientific progress, even though it also planted the seeds for future clashes between faith and esoteric beliefs.</p>
+        <p>Occultism has branched into various schools of thought, each with its own focus. Hermeticism, for example, is all about seeking direct knowledge of the divine through practices like alchemy and astrology (Hanegraaff, 2004). Theosophy, started by Helena Blavatsky in the late 19th century, tries to find a common thread among all religions, philosophies, and sciences, pushing for spiritual growth and enlightenment by blending Eastern religions, mysticism, and esoteric traditions (Goodrick-Clarke, 2004). Then there’s ritual magic, which involves structured ceremonies and symbolic acts to invoke spiritual entities or bring about change in the physical world. The Hermetic Order of the Golden Dawn and the works of Aleister Crowley are prime examples of this (Drury, 2000).</p>
+        <img src="../img/theosophy.JPG" alt="Image 1" title="Theosophy">
+        <img src="../img/hermestris.jpg" alt="Image 1" height="200" title="Hermeticism">
+        <p>The Hermetic Order of the Golden Dawn, founded in the late 1800s by William Robert Woodman, William Wynn Westcott, and Samuel Liddell MacGregor Mathers, was a key player in reviving Western occultism. They took a systematic approach to magical practices, mixing Hermeticism, Kabbalah, and tarot (Drury, 2000). The Golden Dawn didn't just influence its members; it impacted various occult and esoteric movements. Notable members included Aleister Crowley, who later started his own influential order, and the famous poet W.B. Yeats. The Golden Dawn’s structured rituals and teachings still shape modern occult practices today, showing just how lasting their legacy is.</p>
+        <img src="../img/hermetic.WEBP" alt="gods" title="Golden Dawn" width="400" height="400" loading="lazy">
+        <p>Aleister Crowley is one of the most well-known figures in occult history, and his story is a perfect example of how personal ambition can intertwine with esoteric pursuits. Born in 1875 into a devout Christian family, Crowley’s spiritual journey took a sharp turn when he got involved in occult studies and esoteric traditions (Crowley, 2011). Taking on the title "The Beast," Crowley rejected traditional morality in favor of pursuing his personal will and liberation. His personal journals reveal his disillusionment with Christianity and his shift towards darker, more independent spiritual paths (Crowley, 2011). Crowley’s rituals, like those in The Book of the Law and Magick in Theory and Practice, focused on finding one’s true will through ceremonial magic. These practices often included complex symbols, calling upon spiritual entities, and exploring altered states of consciousness, blurring the lines between enlightenment and moral downfall (Crowley, 2011).</p>
+        <p>Secret societies have always been linked with occultism, acting as channels for esoteric knowledge and subtly influencing society from behind the scenes. Take Freemasonry, for example. This fraternal organization, which started from medieval stonemasonry guilds, incorporates elements of Hermeticism and other mystical traditions in its rituals and stories. This creates a network of influential people across different areas, spreading occult symbols and esoteric knowledge (Preuss, 2007). Then there’s Rosicrucianism, which began in the early 1600s. It combines alchemy, Hermeticism, and Christian mysticism, aiming for spiritual enlightenment and societal transformation through hidden wisdom (Hanegraaff, 2004). The Illuminati, founded in 1776 by Adam Weishaupt, wanted to promote Enlightenment ideas and fight against religious and political oppression. Although the Illuminati didn’t last long, it’s still a hot topic in modern conspiracy theories that link secret societies to global control and occult practices (Robinson, 2011).</p>
+        <img src="../img/freemason.JPG" alt="Image 1" height="400" title="Theosophy">
+        <p>John Dee is a great historical example of how science and occultism can mix. As a prominent English mathematician, astronomer, and advisor to Queen Elizabeth I, Dee started off with a strong Christian background and pursued traditional scholarly work, believing that science and religion could coexist harmoniously (Clucas, 2003). But his thirst for knowledge and power led him to alchemy, divination, and angelic communication, working with the occultist Edward Kelley to uncover hidden truths and understand God’s will through mystical practices (Clucas, 2003). Dee’s obsession with wealth and power blinded him, making him chase material gains through alchemy. His partnership with Kelley, who claimed to communicate with angels, ended in deception and disappointment, as the promises of wealth and enlightenment never materialized (Clucas, 2003).</p>
+        <img src="../img/monad.JPG" alt="Image 1" height="400" title="Monas Hieroglyphica">
+        <img src="../img/enochian2.WEBP" alt="Image 1" height="400" title="Enochian Magic">
+        <p>On the other hand, Jack Parsons, an American rocket scientist who was instrumental in developing rocket propulsion, shows how occultism and scientific innovation can intersect in modern times. Parsons was fascinated by occultism and became a follower of Aleister Crowley, diving into ceremonial magic and Thelema (Parsons, 2011). Together with fellow occultist Phyllis Seckler, Parsons conducted the Babalon Working—a series of rituals meant to invoke the goddess Babalon and usher in a new spiritual age. These ceremonies mixed Thelemic principles with Crowley’s magical theories, trying to bring Crowley’s vision of a free humanity to life (Parsons, 2011). Parsons’ life even touched politics when his daughter married a future U.S. president, linking occult practices to political power structures. His work in both rocketry and occultism highlights the complicated relationship between scientific progress and hidden esoteric beliefs (Parsons, 2011).</p>
+        <img src="../img/babalon.JPEG" alt="Image 1" height="400" title="Whore of Babylon">
+        <p>Looking at John Dee and Aleister Crowley side by side shows how people can see the occult in different lights. Today, John Dee is often seen in New Age circles as a trailblazer who tried to connect science and spirituality, celebrating his quest for knowledge and his attempts to communicate with higher realms as noble and enlightening (Clucas, 2003). In contrast, Aleister Crowley is often viewed as the "bad boy" of the occult—rebellious, associated with dark magic, and hedonistic. His bold personality and controversial practices have made him a symbol of the occult’s darker side (Crowley, 2011). This comparison highlights the tension within occultism between seeking enlightenment and falling into corruption, showing how the same figure can be admired and condemned based on different perspectives (Hanegraaff, 2004).</p>
+        <img src="../img/dee.JPG" alt="Image 1" height="400" title="John Dee">
+        <img src="../img/crowley.PNG" alt="Image 1" height="400" title="Aleister Crowley">
+        <p>Occultism doesn’t just stay in the past; it still influences many areas of our lives today, especially religion, politics, and entertainment. In religion, occultism challenges and sometimes complements established beliefs. Movements like Theosophy and modern paganism mix esoteric beliefs with traditional doctrines, while secret societies within religious institutions try to exert hidden influence over spiritual and doctrinal matters (Goodrick-Clarke, 2004). Politically, occultism intersects with power structures through secret societies like the Freemasons and the Illuminati, which are often accused of secretly controlling political decisions and societal norms. Prominent political figures with occult ties fuel conspiracy theories that link occult practices to governance and policy-making (Robinson, 2011). In the entertainment industry, occult symbols are everywhere—in music videos, Hollywood movies, and popular culture. From pentagrams in music videos to occult references in blockbuster films, these symbols make esoteric beliefs seem normal and even attractive to a wide audience.</p>
+        <p>Modern-day religions and spiritual movements often blend in occult elements, making it hard to distinguish between genuine faith and hidden esoteric practices. This mix can create belief systems that include both traditional religious elements and occult symbols, making it difficult to tell what is true worship and what is deceptive practice (Goodrick-Clarke, 2004). Even everyday actions like getting tattoos or buying idols and symbols can be influenced by occult beliefs. These activities often involve adopting symbols linked to false gods and spiritual entities, unintentionally aligning individuals with occult practices and beliefs. The widespread use of occult symbols in daily life shows how subtly the occult can infiltrate and influence believers, often without them even realizing it.</p>
+        <img src="../img/newagesymbol.JPG" alt="Image 1" title="New Age symbolism">
+        <p>The idea that occultism leads to corruption is supported by the observation that engaging in occult practices usually means chasing power, wealth, and personal satisfaction. The temptation to tap into hidden forces can push people to put their own desires above ethical considerations, creating environments where corruption can thrive (Crowley, 2011). Moreover, the belief that occult practitioners become vessels for malevolent forces suggests that their quest for power and knowledge makes them vulnerable to manipulation by demonic or dark entities. This can result in unethical behavior, exploitation, and moral decline, aligning the practitioner's will with dark agendas (Hanegraaff, 2004). Case studies like Aleister Crowley, who indulged in hedonistic pursuits and personal will leading to controversial practices and a reputation for malevolence, and Jack Parsons, whose involvement in the Babalon Working and political connections show how occultism can mix with power structures, reinforce this argument (Parsons, 2011; Crowley, 2011).</p>
+        <p></p>
+      </div>
+      <hr class="short-hr"/>
+
+      <div>
+        <h1>Reflection</h1>
+
+      </div>
+      <div class="footer">
+      <p>
+        <a href="#">Back to Top</a>
+    </p>
+    <p>
+        <a href="../index.html">Back Home</a>
+    </p>
+    </div>
+    </td>
+  </tr>
+</table>
+</div>
+
+</body>
+</html>
