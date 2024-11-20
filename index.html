@@ -348,20 +348,32 @@ nav ul li:focus-within ul {
 
 
         .image-frame {
-            width: 100%; /* Combined image width */
-            margin: 0 auto;
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Auto-fit images into the frame */
-            grid-auto-rows: 400px; /* Set the height of each row */
-            gap: 0px;
-            transform: scale(0.8); /* Zoom out the entire grid to 80% */
-            transform-origin: center; /* Keeps the zoom centered */
-        }
-        .image-frame img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover; /* Ensures the images fit within their cells */
-        }
+    width: 100%; /* Combined image width */
+    margin: 0 auto;
+    display: -webkit-grid; /* Safari */
+    display: grid;
+    -webkit-grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Safari */
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Standard */
+    -webkit-grid-auto-rows: 400px; /* Safari */
+    grid-auto-rows: 400px; /* Standard */
+    gap: 0px;
+    transform: scale(0.8); /* Zoom out the entire grid to 80% */
+    transform-origin: center; /* Keeps the zoom centered */
+    -webkit-transform: scale(0.8); /* Safari */
+    -webkit-transform-origin: center; /* Safari */
+    overflow: hidden; /* Prevents overflow in Safari */
+}
+
+/* Updated .image-frame img */
+.image-frame img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the images fit within their cells */
+    max-width: 100%;
+    height: auto;
+    -webkit-object-fit: cover; /* Safari */
+}
+
 
 </style>
 </head>
